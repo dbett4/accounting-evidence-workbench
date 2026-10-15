@@ -1,0 +1,41 @@
+{
+  "columns": {
+    "account": {
+      "column": "Account"
+    },
+    "credit": {
+      "blank_as_zero": true,
+      "column": "Credit",
+      "format": "us_grouped"
+    },
+    "debit": {
+      "blank_as_zero": true,
+      "column": "Debit",
+      "format": "us_grouped"
+    },
+    "effective_date": {
+      "column": "PostingDate",
+      "format": "mdy_slash"
+    },
+    "entry_id": {
+      "column": "JournalID"
+    },
+    "evidence_id": {
+      "column": "Document"
+    },
+    "leg_id": {
+      "column": "Line"
+    },
+    "recorded_date": {
+      "column": "EnteredDate",
+      "format": "mdy_slash"
+    },
+    "unit": {
+      "column": "Currency"
+    }
+  },
+  "ignored_columns": [
+    "Description"
+  ],
+  "schema_version": "accounting-column-map/1"
+}

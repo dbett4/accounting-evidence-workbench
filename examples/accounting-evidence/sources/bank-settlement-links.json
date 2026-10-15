@@ -1,0 +1,24 @@
+{
+  "basis_sha256": "d5113be543f79c5144c90f12b523225b903ad6c14400b766ca5045e926094e82",
+  "groups": [
+    {
+      "entry_ids": [
+        "receipt",
+        "fee"
+      ],
+      "evidence_id": "settlement-support",
+      "id": "net-receipt",
+      "transaction_ids": [
+        "bank-settlement"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "entry_id": "rent",
+      "transaction_id": "bank-rent"
+    }
+  ],
+  "schema_version": "accounting-bank-links/2",
+  "subject": "cash"
+}

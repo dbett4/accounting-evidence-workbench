@@ -1,0 +1,74 @@
+{
+  "chart_evidence_id": "chart",
+  "claims": [
+    {
+      "accounts": [
+        "1000"
+      ],
+      "bank_evidence_id": "bank-cash",
+      "id": "cash",
+      "label": "Operating cash",
+      "normal_side": "debit",
+      "opening_amount": "10000.00",
+      "opening_evidence_id": "opening-cash"
+    },
+    {
+      "accounts": [
+        "4000"
+      ],
+      "id": "revenue",
+      "label": "Retained sales activity",
+      "normal_side": "credit",
+      "opening_amount": "0.00",
+      "opening_evidence_id": "opening-revenue"
+    }
+  ],
+  "known_at": "2026-04-16",
+  "ledger": {
+    "completeness": "provided_extract_only",
+    "path": "ledger.csv",
+    "sha256": "95acdd40344569507f7c92dd0bc45b6fbda9362b13aa15061f857c5898d29a03"
+  },
+  "period_end": "2026-03-31",
+  "period_start": "2026-03-01",
+  "schema_version": "accounting-evidence/1",
+  "scope": "example-book-march-2026",
+  "sources": [
+    {
+      "id": "opening-cash",
+      "path": "sources/opening-cash.json",
+      "sha256": "f6eec4748e0ea9442610c1ba1b6f4cae7b8efc9791b321233b33cb98dd3e05a1"
+    },
+    {
+      "id": "opening-revenue",
+      "path": "sources/opening-revenue.json",
+      "sha256": "472d479eff1baacb119eb7e85b781044b5dfacdab56e86534afd251a73d83d28"
+    },
+    {
+      "id": "receipt",
+      "path": "sources/receipt.json",
+      "sha256": "8279426506898d7e3f585f5b9b6d337aa7afbc8667b225f92faef94e5b2efad5"
+    },
+    {
+      "id": "rent",
+      "path": "sources/rent.json",
+      "sha256": "796c27ffc137aee25c10e5740e4cd815bd678ea76359af831f57f2c7abe151be"
+    },
+    {
+      "id": "fee",
+      "path": "sources/fee.json",
+      "sha256": "bc9faa72d9f6dfd70cf490df5b054b6e0887d689e67042b393394c21cdbd5303"
+    },
+    {
+      "id": "bank-cash",
+      "path": "sources/bank-cash.json",
+      "sha256": "cadb4ebeeaf49321d6c4ced8331e531329ce10ed5b9ca1e7581b3029c2c13bc9"
+    },
+    {
+      "id": "chart",
+      "path": "sources/chart.json",
+      "sha256": "3b716e29e2c65b7e31191587d7e75cbd6d793394dc7f156e7e6785112d8495f6"
+    }
+  ],
+  "unit": "USD"
+}

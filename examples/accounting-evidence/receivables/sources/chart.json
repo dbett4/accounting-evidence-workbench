@@ -1,0 +1,9 @@
+{
+  "accounts": [
+    "1000",
+    "1200",
+    "4000"
+  ],
+  "schema_version": "accounting-chart/1",
+  "scope": "example-receivables-march-2026"
+}

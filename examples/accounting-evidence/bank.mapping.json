@@ -1,0 +1,23 @@
+{
+  "columns": {
+    "amount": {
+      "column": "Amount",
+      "format": "us_grouped"
+    },
+    "posted_date": {
+      "column": "Date",
+      "format": "mdy_slash"
+    },
+    "reference": {
+      "column": "Details"
+    },
+    "transaction_id": {
+      "column": "BankID"
+    },
+    "unit": {
+      "column": "Currency"
+    }
+  },
+  "ignored_columns": [],
+  "schema_version": "accounting-bank-column-map/1"
+}

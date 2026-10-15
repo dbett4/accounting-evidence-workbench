@@ -1,0 +1,24 @@
+{
+  "bank_members": [
+    {
+      "amount": "2400.00",
+      "transaction_id": "bank-settlement"
+    }
+  ],
+  "basis_sha256": "d5113be543f79c5144c90f12b523225b903ad6c14400b766ca5045e926094e82",
+  "group_id": "net-receipt",
+  "ledger_members": [
+    {
+      "amount": "2500.00",
+      "entry_id": "receipt"
+    },
+    {
+      "amount": "-100.00",
+      "entry_id": "fee"
+    }
+  ],
+  "rationale": "Synthetic retained assertion: this bank deposit settles the receipt less the separately recorded fee",
+  "schema_version": "accounting-bank-settlement/1",
+  "subject": "cash",
+  "unit": "USD"
+}

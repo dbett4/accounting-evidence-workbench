@@ -1,0 +1,3 @@
+Invoice,Customer,Issued,Due,Outstanding,Currency,Description
+INV-101,B,02/10/2026,03/10/2026,800.00,USD,Synthetic ending invoice
+INV-102,A,03/12/2026,04/11/2026,800.00,USD,Synthetic new invoice remaining

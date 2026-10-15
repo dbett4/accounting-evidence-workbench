@@ -1,0 +1,9 @@
+{
+  "amount": "900.00",
+  "description": "Synthetic balanced entry support",
+  "effective_date": "2026-03-20",
+  "kind": "transaction",
+  "schema_version": "accounting-source/1",
+  "subject": "collect-old",
+  "unit": "USD"
+}

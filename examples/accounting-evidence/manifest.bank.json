@@ -1,0 +1,102 @@
+{
+  "chart_evidence_id": "chart",
+  "claims": [
+    {
+      "accounts": [
+        "1000"
+      ],
+      "bank_evidence_id": "bank-cash",
+      "bank_links_evidence_id": "bank-links",
+      "bank_opening_evidence_id": "bank-opening",
+      "bank_transactions_id": "bank-transactions",
+      "bank_transactions_mapping_id": "bank-mapping",
+      "id": "cash",
+      "label": "Operating cash",
+      "normal_side": "debit",
+      "opening_amount": "10000.00",
+      "opening_evidence_id": "opening-cash"
+    },
+    {
+      "accounts": [
+        "4000"
+      ],
+      "id": "revenue",
+      "label": "Retained sales activity",
+      "normal_side": "credit",
+      "opening_amount": "0.00",
+      "opening_evidence_id": "opening-revenue"
+    }
+  ],
+  "known_at": "2026-04-16",
+  "ledger": {
+    "completeness": "provided_extract_only",
+    "mapping": {
+      "path": "ledger.mapping.json",
+      "sha256": "be276af14e125526ca2557e54d02afbeedb714c9e6667b39d2c31ab4abb30e49"
+    },
+    "path": "ledger.export.csv",
+    "sha256": "fc771c1cb4363efd9fb95cae1e71f7a63071494bfbaa14b2e1323c17b8cf0c4b"
+  },
+  "period_end": "2026-03-31",
+  "period_start": "2026-03-01",
+  "schema_version": "accounting-evidence/1",
+  "scope": "example-book-march-2026",
+  "sources": [
+    {
+      "id": "opening-cash",
+      "path": "sources/opening-cash.json",
+      "sha256": "f6eec4748e0ea9442610c1ba1b6f4cae7b8efc9791b321233b33cb98dd3e05a1"
+    },
+    {
+      "id": "opening-revenue",
+      "path": "sources/opening-revenue.json",
+      "sha256": "472d479eff1baacb119eb7e85b781044b5dfacdab56e86534afd251a73d83d28"
+    },
+    {
+      "id": "receipt",
+      "path": "sources/receipt.json",
+      "sha256": "8279426506898d7e3f585f5b9b6d337aa7afbc8667b225f92faef94e5b2efad5"
+    },
+    {
+      "id": "rent",
+      "path": "sources/rent.json",
+      "sha256": "796c27ffc137aee25c10e5740e4cd815bd678ea76359af831f57f2c7abe151be"
+    },
+    {
+      "id": "fee",
+      "path": "sources/fee.json",
+      "sha256": "bc9faa72d9f6dfd70cf490df5b054b6e0887d689e67042b393394c21cdbd5303"
+    },
+    {
+      "id": "bank-cash",
+      "path": "sources/bank-cash.json",
+      "sha256": "cadb4ebeeaf49321d6c4ced8331e531329ce10ed5b9ca1e7581b3029c2c13bc9"
+    },
+    {
+      "id": "chart",
+      "path": "sources/chart.json",
+      "sha256": "3b716e29e2c65b7e31191587d7e75cbd6d793394dc7f156e7e6785112d8495f6"
+    },
+    {
+      "id": "bank-transactions",
+      "path": "bank.export.csv",
+      "sha256": "6e301228c0fb505e0b340ec2d65b50bad666b3e90531157e22e0b1346e80fd31"
+    },
+    {
+      "id": "bank-mapping",
+      "path": "bank.mapping.json",
+      "sha256": "a2e8bdbe3deb989ad3d4918830288953b72d754493dd53ba30b93260eaa7db04"
+    },
+    {
+      "id": "bank-opening",
+      "path": "sources/bank-opening.json",
+      "sha256": "bbb9831077366c42b6a9c551171e4f04c7afb761eec530083a2b2921c0a0b032"
+    },
+    {
+      "id": "bank-links",
+      "path": "sources/bank-links.json",
+      "sha256": "1d18268c3510a93ce2addf5ac8ab50b0eed9d369a7deb500f6c6e55dc0f50ec8"
+    }
+  ],
+  "unit": "USD"
+}

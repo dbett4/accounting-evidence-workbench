@@ -1,0 +1,3 @@
+Invoice,Customer,Issued,Due,Outstanding,Currency,Description
+INV-100,A,01/01/2026,01/31/2026,"1,200.00",USD,Synthetic opening invoice
+INV-101,B,02/10/2026,03/10/2026,800.00,USD,Synthetic opening invoice

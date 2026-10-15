@@ -1,0 +1,16 @@
+{
+  "amount": "-700.00",
+  "basis_sha256": "2d2aa6156ce72d95a638a0c4605eac75f09eca8bb4fc1d4ec71b570dab0a43b5",
+  "customer_id": "A",
+  "due_date": "2026-04-11",
+  "effective_date": "2026-03-25",
+  "entry_id": "collect-batch",
+  "invoice_id": "INV-102",
+  "issue_date": "2026-03-12",
+  "kind": "collection",
+  "rationale": "Synthetic retained invoice/collection allocation assertion",
+  "recorded_date": "2026-03-25",
+  "schema_version": "accounting-receivable-movement/1",
+  "subject": "batch-new",
+  "unit": "USD"
+}

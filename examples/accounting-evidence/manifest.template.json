@@ -1,0 +1,23 @@
+{
+  "schema_version": "accounting-evidence/1",
+  "scope": "example-book-march-2026",
+  "unit": "USD",
+  "chart_evidence_id": "chart",
+  "period_start": "2026-03-01",
+  "period_end": "2026-03-31",
+  "known_at": "2026-04-16",
+  "ledger": {"path": "ledger.csv", "sha256": "", "completeness": "provided_extract_only"},
+  "sources": [
+    {"id": "opening-cash", "path": "sources/opening-cash.json", "sha256": ""},
+    {"id": "opening-revenue", "path": "sources/opening-revenue.json", "sha256": ""},
+    {"id": "receipt", "path": "sources/receipt.json", "sha256": ""},
+    {"id": "rent", "path": "sources/rent.json", "sha256": ""},
+    {"id": "fee", "path": "sources/fee.json", "sha256": ""},
+    {"id": "bank-cash", "path": "sources/bank-cash.json", "sha256": ""},
+    {"id": "chart", "path": "sources/chart.json", "sha256": ""}
+  ],
+  "claims": [
+    {"id": "cash", "label": "Operating cash", "accounts": ["1000"], "normal_side": "debit", "opening_amount": "10000.00", "opening_evidence_id": "opening-cash", "bank_evidence_id": "bank-cash"},
+    {"id": "revenue", "label": "Retained sales activity", "accounts": ["4000"], "normal_side": "credit", "opening_amount": "0.00", "opening_evidence_id": "opening-revenue"}
+  ]
+}

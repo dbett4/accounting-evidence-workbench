@@ -1,0 +1,7 @@
+entry_id,leg_id,account,debit,credit,unit,effective_date,recorded_date,evidence_id
+receipt,1,1000,2500.00,0.00,USD,2026-03-08,2026-03-08,receipt
+receipt,2,4000,0.00,2500.00,USD,2026-03-08,2026-03-08,receipt
+rent,1,6000,1500.00,0.00,USD,2026-03-15,2026-03-15,rent
+rent,2,1000,0.00,1500.00,USD,2026-03-15,2026-03-15,rent
+fee,1,6100,100.00,0.00,USD,2026-03-31,2026-04-15,fee
+fee,2,1000,0.00,100.00,USD,2026-03-31,2026-04-15,fee

@@ -1,0 +1,48 @@
+{
+  "basis_sha256": "2d2aa6156ce72d95a638a0c4605eac75f09eca8bb4fc1d4ec71b570dab0a43b5",
+  "ending_mapping_id": "ar-mapping",
+  "ending_population_id": "ar-ending",
+  "known_at": "2026-03-31",
+  "movements": [
+    {
+      "amount": "1500.00",
+      "entry_id": "issue-new",
+      "evidence_id": "new-invoice",
+      "id": "new-invoice",
+      "invoice_id": "INV-102",
+      "kind": "invoice"
+    },
+    {
+      "amount": "-900.00",
+      "entry_id": "collect-old",
+      "evidence_id": "old-payment",
+      "id": "old-payment",
+      "invoice_id": "INV-100",
+      "kind": "collection"
+    },
+    {
+      "amount": "-300.00",
+      "entry_id": "collect-batch",
+      "evidence_id": "batch-old",
+      "id": "batch-old",
+      "invoice_id": "INV-100",
+      "kind": "collection"
+    },
+    {
+      "amount": "-700.00",
+      "entry_id": "collect-batch",
+      "evidence_id": "batch-new",
+      "id": "batch-new",
+      "invoice_id": "INV-102",
+      "kind": "collection"
+    }
+  ],
+  "opening_mapping_id": "ar-mapping",
+  "opening_population_id": "ar-opening",
+  "period_end": "2026-03-31",
+  "period_start": "2026-03-01",
+  "schema_version": "accounting-receivables/1",
+  "scope": "example-receivables-march-2026",
+  "subject": "receivables",
+  "unit": "USD"
+}

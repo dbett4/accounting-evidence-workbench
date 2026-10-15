@@ -1,0 +1,29 @@
+{
+  "columns": {
+    "amount": {
+      "column": "Outstanding",
+      "format": "us_grouped"
+    },
+    "customer_id": {
+      "column": "Customer"
+    },
+    "due_date": {
+      "column": "Due",
+      "format": "mdy_slash"
+    },
+    "invoice_id": {
+      "column": "Invoice"
+    },
+    "issue_date": {
+      "column": "Issued",
+      "format": "mdy_slash"
+    },
+    "unit": {
+      "column": "Currency"
+    }
+  },
+  "ignored_columns": [
+    "Description"
+  ],
+  "schema_version": "accounting-receivables-column-map/1"
+}

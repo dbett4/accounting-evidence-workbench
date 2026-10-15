@@ -1,0 +1,124 @@
+{
+  "chart_evidence_id": "chart",
+  "claims": [
+    {
+      "accounts": [
+        "1200"
+      ],
+      "id": "receivables",
+      "label": "Gross invoice receivables",
+      "normal_side": "debit",
+      "opening_amount": "2000.00",
+      "opening_evidence_id": "opening-receivables",
+      "receivables_evidence_id": "ar-schedule"
+    },
+    {
+      "accounts": [
+        "1000"
+      ],
+      "id": "cash",
+      "label": "Retained cash activity",
+      "normal_side": "debit",
+      "opening_amount": "10000.00",
+      "opening_evidence_id": "opening-cash"
+    },
+    {
+      "accounts": [
+        "4000"
+      ],
+      "id": "revenue",
+      "label": "Retained invoice sales",
+      "normal_side": "credit",
+      "opening_amount": "0.00",
+      "opening_evidence_id": "opening-revenue"
+    }
+  ],
+  "known_at": "2026-03-31",
+  "ledger": {
+    "completeness": "provided_extract_only",
+    "path": "ledger.csv",
+    "sha256": "a7d0fc7770e91940e5f0032ff542fc98690efbbd0ad1f03a9df6fc57881f1fa8"
+  },
+  "period_end": "2026-03-31",
+  "period_start": "2026-03-01",
+  "schema_version": "accounting-evidence/1",
+  "scope": "example-receivables-march-2026",
+  "sources": [
+    {
+      "id": "ar-opening",
+      "path": "opening.export.csv",
+      "sha256": "6d25c13cea208851e7bcb29ea502da64e35a571116db12b72cf7149b4143562d"
+    },
+    {
+      "id": "ar-ending",
+      "path": "ending.export.csv",
+      "sha256": "0b06cca72caab6f76c1967cf3613ef3ba3a8da7749c2aade2ee516561ec4c2dc"
+    },
+    {
+      "id": "ar-mapping",
+      "path": "population.mapping.json",
+      "sha256": "57fc0472be6230a709500e89cc71228c2d45207b5f822af872f4ea7e86425319"
+    },
+    {
+      "id": "chart",
+      "path": "sources/chart.json",
+      "sha256": "6446b41d55e3be3e3a9a3394b3363da5f84c102f5be93179c46ccb0304ba8cca"
+    },
+    {
+      "id": "opening-receivables",
+      "path": "sources/opening-receivables.json",
+      "sha256": "4621cda9301584708736b91ffdedd888e9ec0ba2e8d16a4ee7c829d792e00497"
+    },
+    {
+      "id": "opening-cash",
+      "path": "sources/opening-cash.json",
+      "sha256": "85267d27921cd7bbe12521cecd3c7f4f10a45732cb60c844ff81859750d46afb"
+    },
+    {
+      "id": "opening-revenue",
+      "path": "sources/opening-revenue.json",
+      "sha256": "e3b7573777c766bafa7bb0724683c5cb15fdf4d3f7ded28e515eba51ab1e7980"
+    },
+    {
+      "id": "issue-new",
+      "path": "sources/issue-new.json",
+      "sha256": "13f24afd0367d36ffc35109e3764e21ab8603a363ecdfa98ba5c74d6d2ea7b0e"
+    },
+    {
+      "id": "collect-old",
+      "path": "sources/collect-old.json",
+      "sha256": "77401ddacfd182e813329ecc4a5acf89d25b1e6880b57c84679ddd94f4df9f36"
+    },
+    {
+      "id": "collect-batch",
+      "path": "sources/collect-batch.json",
+      "sha256": "5e9d0c208ae9d258309c94b9d67421e7c51ab88ef96071ddfb844020ee8a3d74"
+    },
+    {
+      "id": "ar-schedule",
+      "path": "sources/ar-schedule.json",
+      "sha256": "454e8de4c8514e763c2b977cd02b652766a6520eed6d2f5d19747deb0a7443ad"
+    },
+    {
+      "id": "new-invoice",
+      "path": "sources/new-invoice.json",
+      "sha256": "cdc17f1712f827c89a271151dc602b25ad4d5e31fb16e01d46d44344ad54347a"
+    },
+    {
+      "id": "old-payment",
+      "path": "sources/old-payment.json",
+      "sha256": "61953e85079b35d9a8cd9ecebcab3a0b07ab3cf6bce15b9bd89b0f2216aac5b6"
+    },
+    {
+      "id": "batch-old",
+      "path": "sources/batch-old.json",
+      "sha256": "41935467b6b27988c9329d66c241315aa3faf0016191690dd8708e4f543689b8"
+    },
+    {
+      "id": "batch-new",
+      "path": "sources/batch-new.json",
+      "sha256": "00535647b91ff56ed352e075b3cb7dad4527ba4828662240359243bc4e94b341"
+    }
+  ],
+  "unit": "USD"
+}

@@ -1,0 +1,7 @@
+entry_id,leg_id,account,debit,credit,unit,effective_date,recorded_date,evidence_id
+issue-new,1,1200,1500.00,0.00,USD,2026-03-12,2026-03-12,issue-new
+issue-new,2,4000,0.00,1500.00,USD,2026-03-12,2026-03-12,issue-new
+collect-old,1,1000,900.00,0.00,USD,2026-03-20,2026-03-20,collect-old
+collect-old,2,1200,0.00,900.00,USD,2026-03-20,2026-03-20,collect-old
+collect-batch,1,1000,1000.00,0.00,USD,2026-03-25,2026-03-25,collect-batch
+collect-batch,2,1200,0.00,1000.00,USD,2026-03-25,2026-03-25,collect-batch

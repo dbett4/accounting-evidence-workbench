@@ -1,0 +1,8 @@
+JournalID,Line,Account,Debit,Credit,Currency,PostingDate,EnteredDate,Document,Description
+receipt,1,1000,"2,500.00",,USD,03/08/2026,03/08/2026,receipt,Synthetic retained example
+receipt,2,4000,,"2,500.00",USD,03/08/2026,03/08/2026,receipt,Synthetic retained example
+rent,1,6000,"1,500.00",,USD,03/15/2026,03/15/2026,rent,Synthetic retained example
+rent,2,1000,,"1,500.00",USD,03/15/2026,03/15/2026,rent,"Monthly rent
+Bank payment"
+fee,1,6100,100.00,,USD,03/31/2026,04/15/2026,fee,Synthetic retained example
+fee,2,1000,,100.00,USD,03/31/2026,04/15/2026,fee,Synthetic retained example

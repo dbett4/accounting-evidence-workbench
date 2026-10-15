@@ -1,0 +1,1 @@
+{"schema_version":"accounting-source/1","kind":"opening_balance","subject":"revenue","unit":"USD","amount":"0.00","effective_date":"2026-03-01","accounts":["4000"],"normal_side":"credit","description":"Synthetic period activity baseline"}

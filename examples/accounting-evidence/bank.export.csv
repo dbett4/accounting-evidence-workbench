@@ -1,0 +1,4 @@
+BankID,Date,Amount,Currency,Details
+bank-receipt,03/08/2026,"2,500.00",USD,Customer receipt
+bank-rent,03/17/2026,"-1,500.00",USD,Monthly rent payment
+bank-fee,03/31/2026,-100.00,USD,March bank fee

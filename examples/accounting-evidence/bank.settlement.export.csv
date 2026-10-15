@@ -1,0 +1,3 @@
+BankID,Date,Amount,Currency,Details
+bank-settlement,03/31/2026,"2,400.00",USD,Synthetic receipt less fee net settlement
+bank-rent,03/17/2026,"-1,500.00",USD,Monthly rent payment

@@ -1,0 +1,19 @@
+{
+  "basis_sha256": "dea79ceeebcf2c546072c369257fb6934df1140e1e64b3ec35eafda1f583f60d",
+  "matches": [
+    {
+      "entry_id": "receipt",
+      "transaction_id": "bank-receipt"
+    },
+    {
+      "entry_id": "rent",
+      "transaction_id": "bank-rent"
+    },
+    {
+      "entry_id": "fee",
+      "transaction_id": "bank-fee"
+    }
+  ],
+  "schema_version": "accounting-bank-links/1",
+  "subject": "cash"
+}

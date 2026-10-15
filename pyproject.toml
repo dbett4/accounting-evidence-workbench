@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accounting-evidence-workbench"
+version = "0.1.0"
+description = "Read-only accounting evidence, GL bridges, bank links, and invoice rollforwards"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+accounting-evidence = "accounting_evidence:main"
+
+[tool.setuptools]
+package-dir = {"" = "scripts"}
+py-modules = ["accounting_evidence"]
+packages = ["acfr_factory"]

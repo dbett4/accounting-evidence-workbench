@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    "4000"
+  ],
+  "amount": "0.00",
+  "effective_date": "2026-03-01",
+  "kind": "opening_balance",
+  "normal_side": "credit",
+  "schema_version": "accounting-source/1",
+  "subject": "revenue",
+  "unit": "USD"
+}

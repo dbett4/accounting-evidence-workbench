@@ -1,0 +1,377 @@
+{
+  "schema_version": "source-extraction/1",
+  "source_commit": "1a891c5609488da0ef8e65256fd92150718de52c",
+  "source_repository": "agent-stack (private; repository URL intentionally omitted)",
+  "files": [
+    {
+      "path": "scripts/accounting_evidence.py",
+      "source_sha256": "b4e826864ab6a8db4dc63f054cc9399fb45eab6fb7bb9bd9726f5ff7b84c96cc",
+      "extracted_sha256": "b4e826864ab6a8db4dc63f054cc9399fb45eab6fb7bb9bd9726f5ff7b84c96cc",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/__init__.py",
+      "source_sha256": "f4476c9834ff71d09d5e05cc914bd0207f244e9e8e6b8ecdce8e32a145db4dc4",
+      "extracted_sha256": "4b8ed660773f3cc3d03f2ccbc283e3be225b18a70c65280f438a559da0307968",
+      "extraction_changes": [
+        "update standalone package/test description"
+      ]
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_evidence.py",
+      "source_sha256": "d24ba465b31bfdf1a0ee2a73c1260fd30a1bd3e54a98133859c4d6e6aa84e855",
+      "extracted_sha256": "d24ba465b31bfdf1a0ee2a73c1260fd30a1bd3e54a98133859c4d6e6aa84e855",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_source_mapping.py",
+      "source_sha256": "cb3c261ca57c68b6c02df66dad72eba25a5bf95d1a7c78f26d85e6fb6ade0ae8",
+      "extracted_sha256": "cb3c261ca57c68b6c02df66dad72eba25a5bf95d1a7c78f26d85e6fb6ade0ae8",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_bank.py",
+      "source_sha256": "021a703480131c5512fe3ba7de4c3b5f70b80587a30727735e378073517a0cdf",
+      "extracted_sha256": "021a703480131c5512fe3ba7de4c3b5f70b80587a30727735e378073517a0cdf",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_receivables.py",
+      "source_sha256": "520fda98924b2d974d33308ca57494a36f3b2d33633edb5135de75b76e32190c",
+      "extracted_sha256": "520fda98924b2d974d33308ca57494a36f3b2d33633edb5135de75b76e32190c",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_review.py",
+      "source_sha256": "b35a20625f3c9a023b076d7e193abf1412a283afcb66ae48348940fd3eca3d34",
+      "extracted_sha256": "b35a20625f3c9a023b076d7e193abf1412a283afcb66ae48348940fd3eca3d34",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/accounting_view.py",
+      "source_sha256": "e446956fc5ea73c68872da6e839864415e752babd95e60a8dfa05c3941d65ccc",
+      "extracted_sha256": "e446956fc5ea73c68872da6e839864415e752babd95e60a8dfa05c3941d65ccc",
+      "extraction_changes": []
+    },
+    {
+      "path": "scripts/acfr_factory/link_contract.py",
+      "source_sha256": "4c1f08eb298264d206d0841ba8cd41223d9d0ff21f009a31041a8e04b39d50cf",
+      "extracted_sha256": "07e092d235aa5940e805958afcd30826523830c3fcaba89c1e52be015fd97950",
+      "extraction_changes": [
+        "unrelated native link validation helpers"
+      ]
+    },
+    {
+      "path": "examples/accounting-evidence/bank.export.csv",
+      "source_sha256": "6e301228c0fb505e0b340ec2d65b50bad666b3e90531157e22e0b1346e80fd31",
+      "extracted_sha256": "6e301228c0fb505e0b340ec2d65b50bad666b3e90531157e22e0b1346e80fd31",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/bank.mapping.json",
+      "source_sha256": "a2e8bdbe3deb989ad3d4918830288953b72d754493dd53ba30b93260eaa7db04",
+      "extracted_sha256": "a2e8bdbe3deb989ad3d4918830288953b72d754493dd53ba30b93260eaa7db04",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/bank.settlement.export.csv",
+      "source_sha256": "0a5df4709f70d70dfe1606d20e7bd034fc11c7a8a82e194d347f524039ab2628",
+      "extracted_sha256": "0a5df4709f70d70dfe1606d20e7bd034fc11c7a8a82e194d347f524039ab2628",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/ledger.csv",
+      "source_sha256": "95acdd40344569507f7c92dd0bc45b6fbda9362b13aa15061f857c5898d29a03",
+      "extracted_sha256": "95acdd40344569507f7c92dd0bc45b6fbda9362b13aa15061f857c5898d29a03",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/ledger.export.csv",
+      "source_sha256": "fc771c1cb4363efd9fb95cae1e71f7a63071494bfbaa14b2e1323c17b8cf0c4b",
+      "extracted_sha256": "fc771c1cb4363efd9fb95cae1e71f7a63071494bfbaa14b2e1323c17b8cf0c4b",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/ledger.mapping.json",
+      "source_sha256": "be276af14e125526ca2557e54d02afbeedb714c9e6667b39d2c31ab4abb30e49",
+      "extracted_sha256": "be276af14e125526ca2557e54d02afbeedb714c9e6667b39d2c31ab4abb30e49",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/manifest.bank.json",
+      "source_sha256": "13f5e440c3e97afc42238880c7ec642c964f9bee9ec2270e40c52f90caa79f1c",
+      "extracted_sha256": "13f5e440c3e97afc42238880c7ec642c964f9bee9ec2270e40c52f90caa79f1c",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/manifest.json",
+      "source_sha256": "0d48942a24ebeb3ec3c7f9aa6032a6363e9372a93c7964f89bb9ae78318753c1",
+      "extracted_sha256": "0d48942a24ebeb3ec3c7f9aa6032a6363e9372a93c7964f89bb9ae78318753c1",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/manifest.mapped.json",
+      "source_sha256": "2fe27851f110992a190d46a88857630a4bbb1b14ddf32663ab4f7c6e2dde90ff",
+      "extracted_sha256": "2fe27851f110992a190d46a88857630a4bbb1b14ddf32663ab4f7c6e2dde90ff",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/manifest.settlement.json",
+      "source_sha256": "0286b931d3eeae339b2c034c3bf89b0daeeaac45f37b22408b473b6af2f2f726",
+      "extracted_sha256": "0286b931d3eeae339b2c034c3bf89b0daeeaac45f37b22408b473b6af2f2f726",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/manifest.template.json",
+      "source_sha256": "4268656708e906431028c87b5676361d99954113c19e0fe4012620c327502181",
+      "extracted_sha256": "4268656708e906431028c87b5676361d99954113c19e0fe4012620c327502181",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/ending.export.csv",
+      "source_sha256": "0b06cca72caab6f76c1967cf3613ef3ba3a8da7749c2aade2ee516561ec4c2dc",
+      "extracted_sha256": "0b06cca72caab6f76c1967cf3613ef3ba3a8da7749c2aade2ee516561ec4c2dc",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/ledger.csv",
+      "source_sha256": "a7d0fc7770e91940e5f0032ff542fc98690efbbd0ad1f03a9df6fc57881f1fa8",
+      "extracted_sha256": "a7d0fc7770e91940e5f0032ff542fc98690efbbd0ad1f03a9df6fc57881f1fa8",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/manifest.json",
+      "source_sha256": "954b4d0d6ac7158f6b905e529afa400c5b313b2e26c75a83b34a22e6d5c19619",
+      "extracted_sha256": "954b4d0d6ac7158f6b905e529afa400c5b313b2e26c75a83b34a22e6d5c19619",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/opening.export.csv",
+      "source_sha256": "6d25c13cea208851e7bcb29ea502da64e35a571116db12b72cf7149b4143562d",
+      "extracted_sha256": "6d25c13cea208851e7bcb29ea502da64e35a571116db12b72cf7149b4143562d",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/population.mapping.json",
+      "source_sha256": "57fc0472be6230a709500e89cc71228c2d45207b5f822af872f4ea7e86425319",
+      "extracted_sha256": "57fc0472be6230a709500e89cc71228c2d45207b5f822af872f4ea7e86425319",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/ar-schedule.json",
+      "source_sha256": "454e8de4c8514e763c2b977cd02b652766a6520eed6d2f5d19747deb0a7443ad",
+      "extracted_sha256": "454e8de4c8514e763c2b977cd02b652766a6520eed6d2f5d19747deb0a7443ad",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/batch-new.json",
+      "source_sha256": "00535647b91ff56ed352e075b3cb7dad4527ba4828662240359243bc4e94b341",
+      "extracted_sha256": "00535647b91ff56ed352e075b3cb7dad4527ba4828662240359243bc4e94b341",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/batch-old.json",
+      "source_sha256": "41935467b6b27988c9329d66c241315aa3faf0016191690dd8708e4f543689b8",
+      "extracted_sha256": "41935467b6b27988c9329d66c241315aa3faf0016191690dd8708e4f543689b8",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/chart.json",
+      "source_sha256": "6446b41d55e3be3e3a9a3394b3363da5f84c102f5be93179c46ccb0304ba8cca",
+      "extracted_sha256": "6446b41d55e3be3e3a9a3394b3363da5f84c102f5be93179c46ccb0304ba8cca",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/collect-batch.json",
+      "source_sha256": "5e9d0c208ae9d258309c94b9d67421e7c51ab88ef96071ddfb844020ee8a3d74",
+      "extracted_sha256": "5e9d0c208ae9d258309c94b9d67421e7c51ab88ef96071ddfb844020ee8a3d74",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/collect-old.json",
+      "source_sha256": "77401ddacfd182e813329ecc4a5acf89d25b1e6880b57c84679ddd94f4df9f36",
+      "extracted_sha256": "77401ddacfd182e813329ecc4a5acf89d25b1e6880b57c84679ddd94f4df9f36",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/issue-new.json",
+      "source_sha256": "13f24afd0367d36ffc35109e3764e21ab8603a363ecdfa98ba5c74d6d2ea7b0e",
+      "extracted_sha256": "13f24afd0367d36ffc35109e3764e21ab8603a363ecdfa98ba5c74d6d2ea7b0e",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/new-invoice.json",
+      "source_sha256": "cdc17f1712f827c89a271151dc602b25ad4d5e31fb16e01d46d44344ad54347a",
+      "extracted_sha256": "cdc17f1712f827c89a271151dc602b25ad4d5e31fb16e01d46d44344ad54347a",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/old-payment.json",
+      "source_sha256": "61953e85079b35d9a8cd9ecebcab3a0b07ab3cf6bce15b9bd89b0f2216aac5b6",
+      "extracted_sha256": "61953e85079b35d9a8cd9ecebcab3a0b07ab3cf6bce15b9bd89b0f2216aac5b6",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/opening-cash.json",
+      "source_sha256": "85267d27921cd7bbe12521cecd3c7f4f10a45732cb60c844ff81859750d46afb",
+      "extracted_sha256": "85267d27921cd7bbe12521cecd3c7f4f10a45732cb60c844ff81859750d46afb",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/opening-receivables.json",
+      "source_sha256": "4621cda9301584708736b91ffdedd888e9ec0ba2e8d16a4ee7c829d792e00497",
+      "extracted_sha256": "4621cda9301584708736b91ffdedd888e9ec0ba2e8d16a4ee7c829d792e00497",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/receivables/sources/opening-revenue.json",
+      "source_sha256": "e3b7573777c766bafa7bb0724683c5cb15fdf4d3f7ded28e515eba51ab1e7980",
+      "extracted_sha256": "e3b7573777c766bafa7bb0724683c5cb15fdf4d3f7ded28e515eba51ab1e7980",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/bank-cash.json",
+      "source_sha256": "cadb4ebeeaf49321d6c4ced8331e531329ce10ed5b9ca1e7581b3029c2c13bc9",
+      "extracted_sha256": "cadb4ebeeaf49321d6c4ced8331e531329ce10ed5b9ca1e7581b3029c2c13bc9",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/bank-links.json",
+      "source_sha256": "1d18268c3510a93ce2addf5ac8ab50b0eed9d369a7deb500f6c6e55dc0f50ec8",
+      "extracted_sha256": "1d18268c3510a93ce2addf5ac8ab50b0eed9d369a7deb500f6c6e55dc0f50ec8",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/bank-opening.json",
+      "source_sha256": "bbb9831077366c42b6a9c551171e4f04c7afb761eec530083a2b2921c0a0b032",
+      "extracted_sha256": "bbb9831077366c42b6a9c551171e4f04c7afb761eec530083a2b2921c0a0b032",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/bank-settlement-links.json",
+      "source_sha256": "31887b86c567487d7facf560a65bdf42b5e13ca36ce2993393515d1fca3d32dd",
+      "extracted_sha256": "31887b86c567487d7facf560a65bdf42b5e13ca36ce2993393515d1fca3d32dd",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/bank-settlement-support.json",
+      "source_sha256": "54dfc0bcbdd09d097d9d2941eda3dc653a9d2a51ff8c1a0129fbd43e1c297846",
+      "extracted_sha256": "54dfc0bcbdd09d097d9d2941eda3dc653a9d2a51ff8c1a0129fbd43e1c297846",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/chart.json",
+      "source_sha256": "3b716e29e2c65b7e31191587d7e75cbd6d793394dc7f156e7e6785112d8495f6",
+      "extracted_sha256": "3b716e29e2c65b7e31191587d7e75cbd6d793394dc7f156e7e6785112d8495f6",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/fee.json",
+      "source_sha256": "bc9faa72d9f6dfd70cf490df5b054b6e0887d689e67042b393394c21cdbd5303",
+      "extracted_sha256": "bc9faa72d9f6dfd70cf490df5b054b6e0887d689e67042b393394c21cdbd5303",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/opening-cash.json",
+      "source_sha256": "f6eec4748e0ea9442610c1ba1b6f4cae7b8efc9791b321233b33cb98dd3e05a1",
+      "extracted_sha256": "f6eec4748e0ea9442610c1ba1b6f4cae7b8efc9791b321233b33cb98dd3e05a1",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/opening-revenue.json",
+      "source_sha256": "472d479eff1baacb119eb7e85b781044b5dfacdab56e86534afd251a73d83d28",
+      "extracted_sha256": "472d479eff1baacb119eb7e85b781044b5dfacdab56e86534afd251a73d83d28",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/receipt.json",
+      "source_sha256": "8279426506898d7e3f585f5b9b6d337aa7afbc8667b225f92faef94e5b2efad5",
+      "extracted_sha256": "8279426506898d7e3f585f5b9b6d337aa7afbc8667b225f92faef94e5b2efad5",
+      "extraction_changes": []
+    },
+    {
+      "path": "examples/accounting-evidence/sources/rent.json",
+      "source_sha256": "796c27ffc137aee25c10e5740e4cd815bd678ea76359af831f57f2c7abe151be",
+      "extracted_sha256": "796c27ffc137aee25c10e5740e4cd815bd678ea76359af831f57f2c7abe151be",
+      "extraction_changes": []
+    },
+    {
+      "path": "tests/test_accounting_evidence.py",
+      "source_sha256": "1898d255ce7945e898940a889e5491ef3fc42ba221f4945f0eded439dfe661cf",
+      "extracted_sha256": "7b103b7aebd694888f4a08986c02e653a90490f0aea270638f4d7068f8129636",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.evaluator import evaluate",
+        "from acfr_factory.validators.intake import evaluate_intake",
+        "factory_context",
+        "test_factory_intake_recomputes_declared_evidence",
+        "test_blank_optional_requirement_cannot_bypass_factory",
+        "test_client_ready_rechecks_evidence_instead_of_trusting_old_receipts",
+        "test_declared_accepted_exception_does_not_erase_source_failure",
+        "update standalone package/test description",
+        "describe expected balances as authored synthetic expectations"
+      ]
+    },
+    {
+      "path": "tests/test_accounting_source_review.py",
+      "source_sha256": "57b1cb60e878254852bd8370c318d1f47516d30fc6b65e3fc636e5136013579a",
+      "extracted_sha256": "c19be17d7f3b82d7231552de5e134e31cf75b16d5db16107eb12e11f025b0cbd",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.validators.intake import evaluate_intake",
+        "test_actual_factory_intake_recomputes_mapping_and_refuses_stale_revision",
+        "describe expected balances as authored synthetic expectations"
+      ]
+    },
+    {
+      "path": "tests/test_accounting_bank.py",
+      "source_sha256": "08fef52246d68466caa456129112979db63e5092013ce99d6b30f1d1bbb168ba",
+      "extracted_sha256": "67d2bf9636ecef290168548b50adb686d1ccc5b9e165ec5ff745e12074549313",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.evaluator import evaluate",
+        "from acfr_factory.validators.intake import evaluate_intake",
+        "factory_context",
+        "test_factory_intake_and_client_ready_recheck_bank_even_after_pass",
+        "update standalone package/test description"
+      ]
+    },
+    {
+      "path": "tests/test_accounting_settlement.py",
+      "source_sha256": "d6c94ecdea3d5f2d1c0685b22185a44f32cedc1b5bfd62166183c21dc93095fa",
+      "extracted_sha256": "4235e6824db1561af5715fddfd3564137371e8a0d682e3dc5dd3f4aad03f6f10",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.validators.intake import evaluate_intake",
+        "test_factory_rechecks_settlement_support_after_saved_success"
+      ]
+    },
+    {
+      "path": "tests/test_accounting_receivables.py",
+      "source_sha256": "348c9f59406b5dc36b29bef06deeedc056f771e0eb41353c228d2f4cd49e9cd6",
+      "extracted_sha256": "72e9f5f9603b5646600aeb31b1e1cb2ae9634f28ed7ede61f6be7980cc42ec04",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.validators.intake import evaluate_intake",
+        "test_factory_rechecks_population_and_invoice_evidence_after_saved_success",
+        "describe expected balances as authored synthetic expectations"
+      ]
+    },
+    {
+      "path": "tests/test_accounting_view.py",
+      "source_sha256": "8eb9dbd312a872a680e3c80b2a056f30374b3a8a2bd335666e016e7b17f3d926",
+      "extracted_sha256": "8eb9dbd312a872a680e3c80b2a056f30374b3a8a2bd335666e016e7b17f3d926",
+      "extraction_changes": []
+    },
+    {
+      "path": "tests/test_accounting_workflow_boundary.py",
+      "source_sha256": "ff877e1cac22c70e69e66cd0a5cff87d9328da3d3f28fb42b24becce39bfdb50",
+      "extracted_sha256": "f09c29e9107579485ffed37d4793956b13a3b81d374521a4e814743c66b1f6b3",
+      "extraction_changes": [
+        "from acfr_factory.core import FactoryContext",
+        "from acfr_factory.evaluator import evaluate",
+        "test_fresh_client_ready_closure_refuses_csv_error_despite_prior_success"
+      ]
+    }
+  ]
+}
