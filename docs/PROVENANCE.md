@@ -22,3 +22,5 @@ The standalone native oracle is `python3 -m unittest discover -s tests -q`. It c
 The earlier private adoption receipt identifies the implementation commit but is outside that commit and is not imported as a current proof artifact. Current runnable evidence comes from this repository's own tests and demo. Original wider-system test counts, browser reviews, native-system readiness, production results, and savings are not claimed here.
 
 The retained fixtures and test expectations were prepared within the same development lineage as the implementation. Their successful evaluation establishes conformance to those authored cases. It does not establish independent accounting review, authentic underlying documents, complete populations, or general accounting correctness.
+
+The first hosted matrix exposed an incorrect Python 3.10 minimum in the extraction's package metadata. The retained date-parsing behavior requires Python 3.11 or later. Packaging, quickstart and CI now declare that minimum; the original evaluator and its compact-date regression case remain unchanged.

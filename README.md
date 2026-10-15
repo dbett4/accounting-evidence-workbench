@@ -1,5 +1,7 @@
 # Accounting Evidence Workbench
 
+[![Local evidence checks](https://github.com/dbett4/accounting-evidence-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/dbett4/accounting-evidence-workbench/actions/workflows/ci.yml)
+
 Explain a reported amount from retained ledger rows, identify the source records it depends on, and keep unresolved differences visible.
 
 This read-only Python CLI checks exact USD amounts, explicit account mappings, bank-to-ledger links, and invoice rollforwards. It emits a portable evidence pack, an exception register, and an offline review page. It was extracted from completed financial reporting automation work so the evidence controls can be run and inspected independently.
@@ -10,7 +12,7 @@ Fictional missing-support example. Cash of $10,900 remains provisional and unres
 
 ## Try it
 
-Python 3.10 or later. The CLI and tests use only the standard library. No account, API key, database, or service is needed.
+Python 3.11 or later. The CLI and tests use only the standard library. No account, API key, database, or service is needed.
 
 ```bash
 # From the repository root:

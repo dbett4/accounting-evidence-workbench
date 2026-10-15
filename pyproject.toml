@@ -7,7 +7,7 @@ name = "accounting-evidence-workbench"
 version = "0.1.0"
 description = "Read-only accounting evidence, GL bridges, bank links, and invoice rollforwards"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = []
 
 [project.scripts]
